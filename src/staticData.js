@@ -30,34 +30,34 @@ export const features = [
 export const services = [
   {
     icon: tick,
-    label: "New Caledonia",
+    label: "beautiful multi page website",
   },
   {
     icon: tick,
-    label: "Cambodia",
+    label: "personalized design & SEO",
   },
   {
     icon: tick,
-    label: "Botswana",
+    label: "fast loading to rank on google",
   },
   {
     icon: tick,
-    label: "Kyrgyzstan",
+    label: "ecommerce & bookings",
   },
   {
     icon: tick,
-    label: "Liechtenstein",
+    label: "easy to edit & use",
   },
   {
     icon: tick,
-    label: "Azerbaijan",
+    label: "domain, email, hosting & SSL",
   },
   {
     icon: tick,
-    label: "Iraq",
+    label: "our team on hand to help you",
   },
   {
     icon: tick,
-    label: "Gabon",
+    label: "30 day money-back guarantee",
   },
 ];
