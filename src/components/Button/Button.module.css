@@ -16,6 +16,7 @@
 }
 
 .buttonPrimary:hover {
+  color: var(--revert);
   background-color: var(--primary);
   border: 1px solid var(--variant) !important;
 }

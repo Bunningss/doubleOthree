@@ -4,6 +4,7 @@ import Feature from "@/components/Feature/Feature";
 import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
 import Image from "next/image";
+import promotion from "@/images/promotion.png";
 
 export default function Home() {
   return (
@@ -26,6 +27,10 @@ export default function Home() {
             <Button label={"whats included"} medium />
           </div>
           <div className={styles.services}>
+            <h2 className={`headerMedium ${styles.servicesHeader}`}>
+              Get an website at an affordable price
+            </h2>
+            <h6 className={styles.servicesText}>Launch your dream</h6>
             <div className={styles.servicesContent}>
               <div className={styles.servicesColumn}>
                 {services.map((service, indx) => (
@@ -33,7 +38,11 @@ export default function Home() {
                 ))}
               </div>
               <div className={styles.servicesColumn}>
-                <Image src="" alt="Promotion Image" />
+                <Image
+                  src={promotion}
+                  alt="Promotion Image"
+                  className={styles.servicesImage}
+                />
               </div>
             </div>
           </div>

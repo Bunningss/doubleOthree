@@ -32,9 +32,9 @@
 .services {
   width: 100%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-
   margin: 40px 0;
 }
 
@@ -46,9 +46,24 @@
 }
 
 .servicesColumn {
-  border: 1px solid var(--variant);
   padding: 15px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 15px;
+}
+
+.servicesHeader {
+  font-weight: 500;
+}
+
+.servicesText {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.7;
+}
+
+.servicesImage {
+  width: 100%;
+  object-fit: contain;
 }
