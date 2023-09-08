@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --accent: #f4f5ff;
+  --secondary: #dec0f1;
+  --primary: #b79ced;
+  --variant: #000;
+  --revert: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.headerLarge {
+  font-size: 48px;
+}
+
+.headerSecondary {
+  font-size: 28px;
+}

@@ -1,0 +1,18 @@
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.featureIcon {
+  width: 30px;
+  object-fit: contain;
+}
+
+.featureLabel {
+  text-transform: capitalize;
+  font-size: 22px;
+  font-weight: 500;
+}

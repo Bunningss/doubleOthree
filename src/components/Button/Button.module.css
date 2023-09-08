@@ -1,0 +1,34 @@
+.button {
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.buttonPrimary {
+  background-color: var(--secondary);
+  border: 1px solid var(--secondary) !important;
+}
+
+.buttonPrimary:hover {
+  background-color: var(--primary);
+  border: 1px solid var(--variant) !important;
+}
+
+.buttonSecondary {
+  border: 1px solid #000 !important;
+}
+
+.buttonSecondary:hover {
+  background-color: var(--variant);
+  color: var(--revert);
+}
+
+.buttonMedium {
+  width: 300px;
+}
