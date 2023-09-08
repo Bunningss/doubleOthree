@@ -24,7 +24,7 @@ export default function Home() {
           </div>
           <div className={styles.buttonsWrapper}>
             <Button label={"get started"} primary medium />
-            <Button label={"whats included"} medium />
+            <Button label={"whats included?"} medium />
           </div>
           <div className={styles.services}>
             <h2 className={`headerMedium ${styles.servicesHeader}`}>

@@ -9,7 +9,7 @@ const Navbar = () => {
       <Container>
         <div className={styles.navContent}>
           <Logo />
-          <Button label={"login"} />
+          <Button label={"login"} small />
         </div>
       </Container>
     </nav>
