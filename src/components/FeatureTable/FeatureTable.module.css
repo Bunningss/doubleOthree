@@ -7,8 +7,21 @@
   border: 1px solid var(--variant);
   padding: 15px;
   font-size: 20px;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .tableHeader:nth-child(4n - 2) {
   background-color: var(--secondary);
+}
+
+.tableHeader {
+  border-right: none;
+}
+
+.tableHeader:last-child {
+  border-right: 1px solid var(--variant);
 }

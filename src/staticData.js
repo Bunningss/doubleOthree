@@ -61,3 +61,54 @@ export const services = [
     label: "30 day money-back guarantee",
   },
 ];
+
+export const comparisons = [
+  {
+    label: "chances of launching your website",
+    us: "100%",
+    others: "10-20%",
+    agency: "100%",
+  },
+  {
+    label: "Done for you design",
+    usIcon: tick,
+    othersIcon: tick,
+    agencyIcon: tick,
+  },
+  {
+    label: "use any domain to get started fast",
+    usIcon: tick,
+    othersIcon: tick,
+    agencyIcon: tick,
+  },
+  {
+    label: "launch & training call",
+    usIcon: tick,
+    othersIcon: tick,
+    agencyIcon: tick,
+  },
+  {
+    label: "fast, secure hosting",
+    usIcon: tick,
+    othersIcon: tick,
+    agencyIcon: tick,
+  },
+  {
+    label: "launch in 7 days only",
+    usIcon: tick,
+    othersIcon: tick,
+    agencyIcon: tick,
+  },
+  {
+    label: "unlimited edits for 30 days",
+    usIcon: tick,
+    othersIcon: tick,
+    agencyIcon: tick,
+  },
+  {
+    label: "biggest frustration",
+    us: "not finding us sooner",
+    others: "hard to use, difficult to launch a website.",
+    agency: "too expensive and hard to maintain",
+  },
+];
