@@ -4,6 +4,8 @@ import premium from "@/images/premium.png";
 import secure from "@/images/secure.png";
 import tick from "@/images/tick.png";
 
+import tablet from "@/images/tablet.png";
+
 export const features = [
   {
     icon: secure,
@@ -110,5 +112,62 @@ export const comparisons = [
     us: "not finding us sooner",
     others: "hard to use, difficult to launch a website.",
     agency: "too expensive and hard to maintain",
+  },
+];
+
+export const featureBoxContents = [
+  {
+    icon: tablet,
+    primaryFeature: "Done-for-you design",
+    secondaryFeature:
+      "We write the copy, pick the right images, create your design, provide rich content for your products and services, and go the extra mile to make a website that looks great on any device.",
+  },
+  {
+    icon: tablet,
+    primaryFeature: "Custom domain name & professional email",
+    secondaryFeature:
+      "We provide you with a custom domain name of your choice (yourbusiness.com) and a matching email address (you@yourbusiness.com) to complete your professional brand.",
+  },
+  {
+    icon: tablet,
+    primaryFeature: "Unlimited hosting",
+    secondaryFeature:
+      "We provide unlimited hosting so your website will always be available, highly secure, and fast.",
+  },
+  {
+    icon: tablet,
+    primaryFeature: "Unlimited 0% commission sales",
+    secondaryFeature:
+      "Add as many products as you need and sell to new or returning customers through your website without ever paying UENI a commission.",
+  },
+  {
+    icon: tablet,
+    primaryFeature: "Take appointments 24/7",
+    secondaryFeature:
+      "Receive appointment requests through your website and sync confirmed bookings with your calendar. Connect your own bookings platform to your website if you prefer!",
+  },
+  {
+    icon: tablet,
+    primaryFeature: "Personal analytics dashboard & lead capture",
+    secondaryFeature:
+      "Track page views, sources, unique users, average session duration, and more in a dashboard dedicated to the performance of your sales and bookings. Capture all customer and lead information in a single place and export your contacts anytime.",
+  },
+  {
+    icon: tablet,
+    primaryFeature: "1-to-1 call before launch",
+    secondaryFeature:
+      "Before your website goes live, we hop on a 1-to-1 Zoom call to show you your website and make any adjustments you might need. Happiness Guaranteed.",
+  },
+  {
+    icon: tablet,
+    primaryFeature: "Unlimited edits done by us",
+    secondaryFeature:
+      "For 30 days after we launch your website, we remain on hand to make any edits you need. Just make a request through your website editor or via Live Chat in the Business Hub.",
+  },
+  {
+    icon: tablet,
+    primaryFeature: "Real human support",
+    secondaryFeature:
+      "With UENI (pronounced you & I) you will never be alone. Get world class human support to answer your questions and get advice about succeeding online.",
   },
 ];

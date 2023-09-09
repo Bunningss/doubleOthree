@@ -1,7 +1,7 @@
 import Image from "next/image";
-import styles from "./FeaturetableContent.module.css";
+import styles from "./DetailTableContent.module.css";
 
-const FeaturetableContent = ({ data }) => {
+const DetailTableContent = ({ data }) => {
   return (
     <div className={styles.columnWrapper}>
       <span className={styles.tableColumn}>{data?.label}</span>
@@ -37,4 +37,4 @@ const FeaturetableContent = ({ data }) => {
   );
 };
 
-export default FeaturetableContent;
+export default DetailTableContent;
