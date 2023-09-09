@@ -1,0 +1,18 @@
+.columnWrapper {
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.tableColumn {
+  border: 1px solid var(--variant);
+  padding: 15px;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tableColumn:nth-child(4n - 2) {
+  background-color: var(--secondary);
+}
