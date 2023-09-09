@@ -1,13 +1,14 @@
 import styles from "./page.module.css";
-import { features, services } from "@/staticData";
+import { featureBoxContents, features, services } from "@/staticData";
 import Feature from "@/components/Feature/Feature";
 import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
 import Image from "next/image";
 import promotion from "@/images/promotion.png";
-import FeatureTable from "@/components/FeatureTable/FeatureTable";
+import DetailTable from "@/components/DetailTable/DetailTable";
 import Headers from "@/components/Headers/Headers";
 import Section from "@/components/Section/Section";
+import FeatureBox from "@/components/FeatureBox/FeatureBox";
 
 export default function Home() {
   return (
@@ -55,7 +56,7 @@ export default function Home() {
             </div>
           </Section>
 
-          {/* Features Table */}
+          {/* Details Table */}
           <Section>
             <Headers
               primaryHeader={"What makes us different"}
@@ -63,7 +64,22 @@ export default function Home() {
                 "Easier & more affordable than DIY website builders and agencies."
               }
             />
-            <FeatureTable />
+            <DetailTable />
+          </Section>
+
+          {/* Features Section */}
+          <Section>
+            <Headers
+              primaryHeader={"What features are included in your website?"}
+              secondaryHeader={
+                "All the essentials to run a successful website or online store."
+              }
+            />
+            <div className={styles.featureBoxes}>
+              {featureBoxContents.map((content, indx) => (
+                <FeatureBox key={indx} feature={content} />
+              ))}
+            </div>
           </Section>
         </Container>
       </div>

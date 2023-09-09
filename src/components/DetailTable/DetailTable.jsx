@@ -1,8 +1,8 @@
 import { comparisons } from "@/staticData";
-import styles from "./FeatureTable.module.css";
-import FeaturetableContent from "./FeaturetableContent/FeaturetableContent";
+import styles from "./DetailTable.module.css";
+import FeaturetableContent from "./DetailTableContent/DetailTableContent";
 
-const FeatureTable = () => {
+const DetailTable = () => {
   return (
     <>
       <div className={styles.table}>
@@ -19,4 +19,4 @@ const FeatureTable = () => {
   );
 };
 
-export default FeatureTable;
+export default DetailTable;

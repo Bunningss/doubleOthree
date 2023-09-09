@@ -1,8 +1,6 @@
 import Image from "next/image";
 import styles from "./Feature.module.css";
 
-import demo from "@/images/secure.png";
-
 const Feature = ({ feature }) => {
   return (
     <div className={styles.feature}>
