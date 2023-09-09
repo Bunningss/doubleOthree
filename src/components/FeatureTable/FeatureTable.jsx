@@ -1,3 +1,4 @@
+import { comparisons } from "@/staticData";
 import styles from "./FeatureTable.module.css";
 import FeaturetableContent from "./FeaturetableContent/FeaturetableContent";
 
@@ -11,16 +12,9 @@ const FeatureTable = () => {
         <div className={styles.tableHeader}>Wordpress DIY</div>
         <div className={styles.tableHeader}>Agency</div>
       </div>
-      <FeaturetableContent />
-      <FeaturetableContent />
-      <FeaturetableContent />
-      <FeaturetableContent />
-      <FeaturetableContent />
-      <FeaturetableContent />
-      <FeaturetableContent />
-      <FeaturetableContent />
-      <FeaturetableContent />
-      <FeaturetableContent />
+      {comparisons.map((comp, indx) => (
+        <FeaturetableContent data={comp} key={indx} />
+      ))}
     </>
   );
 };
