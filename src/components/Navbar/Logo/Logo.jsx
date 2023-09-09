@@ -7,7 +7,7 @@ const Logo = () => {
 
   return (
     <h2 className={styles.logo} onClick={() => router.push("/")}>
-      ueni
+      carlyle
     </h2>
   );
 };
