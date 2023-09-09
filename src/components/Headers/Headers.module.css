@@ -1,0 +1,20 @@
+.headerWrapper {
+  margin: 15px 0;
+}
+
+.XLHeader {
+  margin: 65px 0 15px 0;
+  font-size: 48px;
+}
+
+.headerPrimary {
+  font-weight: 400;
+  font-size: 34px;
+  margin: 10px 0;
+}
+
+.headerSecondary {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 0.7;
+}

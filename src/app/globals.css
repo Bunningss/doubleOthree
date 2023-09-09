@@ -21,15 +21,3 @@ ul,
 li {
   list-style: none;
 }
-
-.headerLarge {
-  font-size: 48px;
-}
-
-.headerSecondary {
-  font-size: 28px;
-}
-
-.headerMedium {
-  font-size: 34px;
-}
