@@ -1,0 +1,12 @@
+.visionTitle {
+  font-weight: 700;
+  font-size: 260px;
+  line-height: 60px;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  color: var(--accent-variant);
+  position: relative;
+  left: -150px;
+  bottom: -40px;
+  margin: 0 -1000px 0 0;
+}

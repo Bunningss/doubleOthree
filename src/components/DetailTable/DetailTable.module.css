@@ -4,7 +4,7 @@
 }
 
 .tableHeader {
-  border: 1px solid var(--variant);
+  border: 1px solid var(--dark);
   padding: 5px;
   min-height: 55px;
   font-size: 20px;
@@ -24,5 +24,5 @@
 }
 
 .tableHeader:last-child {
-  border-right: 1px solid var(--variant);
+  border-right: 1px solid var(--dark);
 }

@@ -8,7 +8,7 @@ const DetailTable = () => {
       <div className={styles.table}>
         {/* Header */}
         <div className={styles.tableHeader}></div>
-        <div className={styles.tableHeader}>CARLYLE</div>
+        <div className={styles.tableHeader}>TATAMAX</div>
         <div className={styles.tableHeader}>Wordpress DIY</div>
         <div className={styles.tableHeader}>Agency</div>
       </div>

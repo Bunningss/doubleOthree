@@ -164,10 +164,4 @@ export const featureBoxContents = [
     secondaryFeature:
       "For 30 days after we launch your website, we remain on hand to make any edits you need. Just make a request through your website editor or via Live Chat in the Business Hub.",
   },
-  {
-    icon: tablet,
-    primaryFeature: "Real human support",
-    secondaryFeature:
-      "With UENI (pronounced you & I) you will never be alone. Get world class human support to answer your questions and get advice about succeeding online.",
-  },
 ];
