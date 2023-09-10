@@ -16,9 +16,9 @@
 }
 
 .buttonPrimary:hover {
-  color: var(--revert);
+  color: var(--white);
   background-color: var(--primary);
-  border: 1px solid var(--variant) !important;
+  border: 1px solid var(--dark) !important;
 }
 
 .buttonSecondary {
@@ -26,8 +26,8 @@
 }
 
 .buttonSecondary:hover {
-  background-color: var(--variant);
-  color: var(--revert);
+  background-color: var(--dark);
+  color: var(--white);
 }
 
 .buttonMedium {
