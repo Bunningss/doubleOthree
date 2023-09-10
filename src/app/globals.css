@@ -8,8 +8,13 @@
   --accent: #f4f5ff;
   --secondary: #dec0f1;
   --primary: #b79ced;
-  --variant: #000;
+  --variant: #26302b;
   --revert: #fff;
+  --color-light: #484848;
+}
+
+body {
+  color: var(--variant);
 }
 
 a {

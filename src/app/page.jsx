@@ -5,16 +5,22 @@ import Button from "@/components/Button/Button";
 import Container from "@/components/Container/Container";
 import Image from "next/image";
 import promotion from "@/images/promotion.png";
+import moneyback from "@/images/moneyback.svg";
 import DetailTable from "@/components/DetailTable/DetailTable";
 import Headers from "@/components/Headers/Headers";
 import Section from "@/components/Section/Section";
 import FeatureBox from "@/components/FeatureBox/FeatureBox";
+import CallToAction from "@/components/CallToAction/CallToAction";
+import Hero from "@/components/Hero/Hero";
 
 export default function Home() {
   return (
     <main>
       <div className={styles.hero}>
         <Container>
+          <Section>
+            <Hero />
+          </Section>
           <Headers
             XLHeader={"Website built in 7 days. By experts, for you."}
             primaryHeader={
@@ -59,7 +65,7 @@ export default function Home() {
           {/* Details Table */}
           <Section>
             <Headers
-              primaryHeader={"What makes us different"}
+              primaryHeader={"What sets us apart?"}
               secondaryHeader={
                 "Easier & more affordable than DIY website builders and agencies."
               }
@@ -80,6 +86,30 @@ export default function Home() {
                 <FeatureBox key={indx} feature={content} />
               ))}
             </div>
+          </Section>
+
+          {/* CTA - Money-Back */}
+          <Section>
+            <CallToAction>
+              <div className={styles.financialCtaWrapper}>
+                <div className={styles.financialCtaColumn}>
+                  <Headers
+                    primaryHeader={"50-Day Money-Back Guarantee"}
+                    secondaryHeader={
+                      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio a cumque nostrum ullam quis, ut delectus. Ipsum perspiciatis autem tempore cum deleniti, rerum ab, doloribus ut aliquam soluta corrupti velit earum neque reiciendis accusantium delectus? Quaerat voluptatum praesentium commodi magni."
+                    }
+                  />
+                  <Button label={"get started"} />
+                </div>
+                <div className={styles.financialCtaColumn}>
+                  <Image
+                    src={moneyback}
+                    alt=""
+                    className={styles.financialCtaImage}
+                  />
+                </div>
+              </div>
+            </CallToAction>
           </Section>
         </Container>
       </div>

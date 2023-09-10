@@ -1,9 +1,9 @@
 import "./globals.css";
-import { Josefin_Sans } from "next/font/google";
+import { Roboto_Slab } from "next/font/google";
 
 import Navbar from "@/components/Navbar/Navbar";
 
-const font = Josefin_Sans({
+const font = Roboto_Slab({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
