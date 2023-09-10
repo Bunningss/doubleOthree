@@ -7,7 +7,7 @@
   font-size: 140px;
   line-height: 140px;
   text-transform: uppercase;
-  color: #26302b;
+  color: var(--dark);
   margin: 0px -30px 0 0;
 }
 
@@ -24,7 +24,7 @@
   font-size: 30px;
   line-height: 44px;
   letter-spacing: 1px;
-  color: var(--color-light);
+  color: var(--dark-variant);
   mix-blend-mode: normal;
   margin: 60px 0 0 0;
   max-width: 60%;

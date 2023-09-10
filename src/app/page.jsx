@@ -12,6 +12,7 @@ import Section from "@/components/Section/Section";
 import FeatureBox from "@/components/FeatureBox/FeatureBox";
 import CallToAction from "@/components/CallToAction/CallToAction";
 import Hero from "@/components/Hero/Hero";
+import Vision from "@/components/Vision/Vision";
 
 export default function Home() {
   return (
@@ -21,22 +22,29 @@ export default function Home() {
           <Section>
             <Hero />
           </Section>
-          <Headers
-            XLHeader={"Website built in 7 days. By experts, for you."}
-            primaryHeader={
-              "Only £99+VAT one time fee and then just £5.99/month."
-            }
-          />
 
-          <div className={styles.features}>
-            {features.map((feature, indx) => (
-              <Feature feature={feature} key={indx} />
-            ))}
-          </div>
-          <div className={styles.buttonsWrapper}>
-            <Button label={"get started"} primary medium />
-            <Button label={"whats included?"} medium />
-          </div>
+          <Section>
+            <Vision />
+          </Section>
+
+          <Section>
+            <Headers
+              XLHeader={"Website built in 7 days. By experts, for you."}
+              primaryHeader={
+                "Only £99+VAT one time fee and then just £5.99/month."
+              }
+            />
+
+            <div className={styles.features}>
+              {features.map((feature, indx) => (
+                <Feature feature={feature} key={indx} />
+              ))}
+            </div>
+            <div className={styles.buttonsWrapper}>
+              <Button label={"get started"} primary medium />
+              <Button label={"whats included?"} medium />
+            </div>
+          </Section>
 
           {/* Services Section */}
           <Section>
@@ -65,10 +73,10 @@ export default function Home() {
           {/* Details Table */}
           <Section>
             <Headers
-              primaryHeader={"What sets us apart?"}
-              secondaryHeader={
+              primaryHeader={
                 "Easier & more affordable than DIY website builders and agencies."
               }
+              secondaryHeader={"What sets us apart?"}
             />
             <DetailTable />
           </Section>
@@ -76,10 +84,10 @@ export default function Home() {
           {/* Features Section */}
           <Section>
             <Headers
-              primaryHeader={"What features are included in your website?"}
-              secondaryHeader={
+              primaryHeader={
                 "All the essentials to run a successful website or online store."
               }
+              secondaryHeader={"What features are included in your website?"}
             />
             <div className={styles.featureBoxes}>
               {featureBoxContents.map((content, indx) => (
@@ -90,15 +98,18 @@ export default function Home() {
 
           {/* CTA - Money-Back */}
           <Section>
-            <CallToAction>
+            {/* <CallToAction>
               <div className={styles.financialCtaWrapper}>
                 <div className={styles.financialCtaColumn}>
-                  <Headers
-                    primaryHeader={"50-Day Money-Back Guarantee"}
-                    secondaryHeader={
-                      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio a cumque nostrum ullam quis, ut delectus. Ipsum perspiciatis autem tempore cum deleniti, rerum ab, doloribus ut aliquam soluta corrupti velit earum neque reiciendis accusantium delectus? Quaerat voluptatum praesentium commodi magni."
-                    }
-                  />
+                  <h2>50-Day Money-Back Guarantee</h2>
+                  <p>
+                    "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Optio a cumque nostrum ullam quis, ut delectus. Ipsum
+                    perspiciatis autem tempore cum deleniti, rerum ab, doloribus
+                    ut aliquam soluta corrupti velit earum neque reiciendis
+                    accusantium delectus? Quaerat voluptatum praesentium commodi
+                    magni."
+                  </p>
                   <Button label={"get started"} />
                 </div>
                 <div className={styles.financialCtaColumn}>
@@ -109,7 +120,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-            </CallToAction>
+            </CallToAction> */}
           </Section>
         </Container>
       </div>

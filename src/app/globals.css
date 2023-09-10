@@ -5,16 +5,18 @@
 }
 
 :root {
-  --accent: #f4f5ff;
-  --secondary: #dec0f1;
   --primary: #b79ced;
-  --variant: #26302b;
-  --revert: #fff;
-  --color-light: #484848;
+  --secondary: #dec0f1;
+  --dark: #26302b;
+  --dark-variant: #484848;
+  --white: #fff;
+  --accent: #f4f5ff;
+  --accent-variant: #e7f2ef;
 }
 
 body {
-  color: var(--variant);
+  color: var(--dark);
+  overflow-x: hidden;
 }
 
 a {
