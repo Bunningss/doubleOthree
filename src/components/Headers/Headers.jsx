@@ -1,8 +1,13 @@
 import styles from "./Headers.module.css";
+import { roboto } from "@/app/layout";
 
 const Headers = ({ primaryHeader, secondaryHeader, XLHeader, center }) => {
   return (
-    <div className={`${styles.headerWrapper} ${center && styles.textCenter}`}>
+    <div
+      className={`${styles.headerWrapper} ${center && styles.textCenter} ${
+        roboto.className
+      }`}
+    >
       {XLHeader && <h1 className={styles.XLHeader}>{XLHeader}</h1>}
 
       {secondaryHeader && (

@@ -1,22 +1,28 @@
 import "./globals.css";
 import { Roboto_Slab } from "next/font/google";
+import { Poppins } from "next/font/google";
 
 import Navbar from "@/components/Navbar/Navbar";
 
-const font = Roboto_Slab({
+export const roboto = Roboto_Slab({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700"],
+});
+
+export const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700"],
 });
 
 export const metadata = {
-  title: "launch Your Website in 7 Days",
+  title: "launch Your Website in a week!",
   description: "Website builder app",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={font.className}>
+      <body className={poppins.className}>
         <Navbar />
         {children}
       </body>
