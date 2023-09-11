@@ -99,17 +99,19 @@ export default function Home() {
 
           {/* CTA - Money-Back */}
           <Section>
-            {/* <CallToAction>
+            <CallToAction>
               <div className={styles.financialCtaWrapper}>
                 <div className={styles.financialCtaColumn}>
-                  <h2>50-Day Money-Back Guarantee</h2>
-                  <p>
-                    "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  <h2 className={styles.financialCtaHeader}>
+                    50-Day Money-Back Guarantee
+                  </h2>
+                  <p className={styles.financialCtaText}>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Optio a cumque nostrum ullam quis, ut delectus. Ipsum
                     perspiciatis autem tempore cum deleniti, rerum ab, doloribus
                     ut aliquam soluta corrupti velit earum neque reiciendis
                     accusantium delectus? Quaerat voluptatum praesentium commodi
-                    magni."
+                    magni.
                   </p>
                   <Button label={"get started"} />
                 </div>
@@ -121,7 +123,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-            </CallToAction> */}
+            </CallToAction>
           </Section>
         </Container>
       </div>

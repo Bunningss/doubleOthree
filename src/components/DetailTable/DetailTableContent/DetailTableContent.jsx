@@ -10,7 +10,7 @@ const DetailTableContent = ({ data }) => {
 
       {data.usIcon && (
         <span className={styles.tableColumn}>
-          <Image className={styles.tableColumnIcon} src={data?.usIcon} />
+          <Image className={styles.tableColumnIcon} src={data?.usIcon} alt="" />
         </span>
       )}
 
@@ -20,7 +20,7 @@ const DetailTableContent = ({ data }) => {
 
       {data.usIcon && (
         <span className={styles.tableColumn}>
-          <Image className={styles.tableColumnIcon} src={data?.usIcon} />
+          <Image className={styles.tableColumnIcon} src={data?.usIcon} alt="" />
         </span>
       )}
 
@@ -30,7 +30,7 @@ const DetailTableContent = ({ data }) => {
 
       {data.usIcon && (
         <span className={styles.tableColumn}>
-          <Image className={styles.tableColumnIcon} src={data?.usIcon} />
+          <Image className={styles.tableColumnIcon} src={data?.usIcon} alt="" />
         </span>
       )}
     </div>
