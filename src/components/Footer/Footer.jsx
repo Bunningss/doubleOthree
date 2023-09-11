@@ -3,9 +3,14 @@ import styles from "./Footer.module.css";
 
 const Footer = () => {
   return (
-    <div>
-      <Container>Footer</Container>
-    </div>
+    <footer>
+      <Container>
+        <p className={styles.footerText}>
+          &copy; All content is available under the <b>TATAMAX</b> Licence V.Web
+          2.70, except where otherwise stated.
+        </p>
+      </Container>
+    </footer>
   );
 };
 
