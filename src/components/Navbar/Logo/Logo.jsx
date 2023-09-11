@@ -6,9 +6,10 @@ const Logo = () => {
   const router = useRouter();
 
   return (
-    <h2 className={styles.logo} onClick={() => router.push("/")}>
-      tatamax
-    </h2>
+    <div className={styles.logoWrapper} onClick={() => router.push("/")}>
+      <h2 className={styles.logo}>tatamax</h2>
+      <p className={styles.slogan}>You demand, We develop</p>
+    </div>
   );
 };
 

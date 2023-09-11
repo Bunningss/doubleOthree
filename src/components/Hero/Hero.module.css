@@ -23,9 +23,9 @@
   font-weight: 400;
   font-size: 30px;
   line-height: 44px;
-  letter-spacing: 1px;
+  letter-spacing: -0.5px;
   color: var(--dark-variant);
   mix-blend-mode: normal;
   margin: 60px 0 80px 0;
-  max-width: 60%;
+  max-width: 70%;
 }

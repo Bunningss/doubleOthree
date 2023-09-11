@@ -6,6 +6,14 @@ import tick from "@/images/tick.png";
 
 import tablet from "@/images/tablet.png";
 
+import css from "@/images/css.png";
+import html from "@/images/html.png";
+import javascript from "@/images/javascript.png";
+import laravel from "@/images/laravel.png";
+import nextjs from "@/images/nextjs.png";
+import python from "@/images/python.png";
+import react from "@/images/react.png";
+
 export const features = [
   {
     icon: secure,
@@ -163,5 +171,36 @@ export const featureBoxContents = [
     primaryFeature: "Unlimited edits done by us",
     secondaryFeature:
       "For 30 days after we launch your website, we remain on hand to make any edits you need. Just make a request through your website editor or via Live Chat in the Business Hub.",
+  },
+];
+
+export const technologies = [
+  {
+    image: html,
+    label: "HTML 5",
+  },
+  {
+    image: css,
+    label: "CSS 3",
+  },
+  {
+    image: javascript,
+    label: "Java Script",
+  },
+  {
+    image: react,
+    label: "React JS",
+  },
+  {
+    image: nextjs,
+    label: "NextJS 13",
+  },
+  {
+    image: python,
+    label: "Python",
+  },
+  {
+    image: laravel,
+    label: "Laravel",
   },
 ];

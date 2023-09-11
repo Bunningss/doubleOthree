@@ -25,10 +25,6 @@ export default function Home() {
           </Section>
 
           <Section>
-            <Vision />
-          </Section>
-
-          <Section>
             <Headers
               center
               XLHeader={"Website built in 7 days. By experts, for you."}
@@ -46,6 +42,10 @@ export default function Home() {
               <Button label={"get started"} primary medium />
               <Button label={"whats included?"} medium />
             </div>
+          </Section>
+
+          <Section>
+            <Vision />
           </Section>
 
           {/* Services Section */}

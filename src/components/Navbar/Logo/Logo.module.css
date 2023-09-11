@@ -1,11 +1,20 @@
+.logoWrapper {
+  line-height: 1;
+  user-select: none;
+}
+
 .logo {
   text-transform: uppercase;
-  letter-spacing: 10px;
-  user-select: none;
+  letter-spacing: 6px;
   cursor: pointer;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .logo:hover {
-  letter-spacing: 15px;
+  letter-spacing: 10px;
+}
+
+.slogan {
+  font-size: 12px;
+  color: var(--dark-variant);
 }

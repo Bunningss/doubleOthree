@@ -1,3 +1,4 @@
+import { technologies } from "@/staticData";
 import Container from "../Container/Container";
 import Headers from "../Headers/Headers";
 import Tech from "./Tech/Tech";
@@ -8,8 +9,8 @@ const Technologies = () => {
     <div className={styles.techs}>
       <Container>
         <Headers
-          primaryHeader={"Technologies we use"}
-          secondaryHeader={"top clients"}
+          primaryHeader={"We are limitless in terms of technology"}
+          secondaryHeader={"our wings"}
         />
         <p className={styles.techsText}>
           TATAMAX Solutions has grown into an international contestant in
@@ -17,14 +18,9 @@ const Technologies = () => {
           expertise in all areas needed for reliable software development.
         </p>
         <div className={styles.techsContent}>
-          <Tech />
-          <Tech />
-          <Tech />
-          <Tech />
-          <Tech />
-          <Tech />
-          <Tech />
-          <Tech />
+          {technologies.map((technology, indx) => (
+            <Tech technology={technology} key={indx} />
+          ))}
         </div>
       </Container>
     </div>
