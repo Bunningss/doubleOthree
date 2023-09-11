@@ -75,6 +75,16 @@
   align-items: center;
 }
 
+.financialCtaHeader {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.financialCtaText {
+  font-size: 18px;
+  padding: 10px 0;
+}
+
 .financialCtaImage {
   width: 80%;
   height: 100%;
