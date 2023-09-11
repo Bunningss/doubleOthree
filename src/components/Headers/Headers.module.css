@@ -3,6 +3,10 @@
   position: relative;
 }
 
+.headerWrapper.textCenter {
+  text-align: center;
+}
+
 .XLHeader {
   margin: 0px 0 15px 0;
   font-size: 48px;

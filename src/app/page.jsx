@@ -29,6 +29,7 @@ export default function Home() {
 
           <Section>
             <Headers
+              center
               XLHeader={"Website built in 7 days. By experts, for you."}
               primaryHeader={
                 "Only £99+VAT one time fee and then just £5.99/month."

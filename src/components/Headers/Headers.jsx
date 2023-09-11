@@ -1,8 +1,8 @@
 import styles from "./Headers.module.css";
 
-const Headers = ({ primaryHeader, secondaryHeader, XLHeader }) => {
+const Headers = ({ primaryHeader, secondaryHeader, XLHeader, center }) => {
   return (
-    <div className={styles.headerWrapper}>
+    <div className={`${styles.headerWrapper} ${center && styles.textCenter}`}>
       {XLHeader && <h1 className={styles.XLHeader}>{XLHeader}</h1>}
 
       {secondaryHeader && (
