@@ -13,6 +13,7 @@ import FeatureBox from "@/components/FeatureBox/FeatureBox";
 import CallToAction from "@/components/CallToAction/CallToAction";
 import Hero from "@/components/Hero/Hero";
 import Vision from "@/components/Vision/Vision";
+import Technologies from "@/components/Technologies/Technologies";
 
 export default function Home() {
   return (
@@ -80,6 +81,10 @@ export default function Home() {
               secondaryHeader={"What sets us apart?"}
             />
             <DetailTable />
+          </Section>
+
+          <Section>
+            <Technologies />
           </Section>
 
           {/* Features Section */}

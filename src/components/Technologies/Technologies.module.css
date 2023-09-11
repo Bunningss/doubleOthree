@@ -1,0 +1,12 @@
+.techsText {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.techsContent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px 0;
+  justify-items: center;
+  margin: 40px 0 0 0;
+}
