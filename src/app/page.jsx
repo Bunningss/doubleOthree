@@ -106,12 +106,12 @@ export default function Home() {
                     50-Day Money-Back Guarantee
                   </h2>
                   <p className={styles.financialCtaText}>
-                    "Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                     Optio a cumque nostrum ullam quis, ut delectus. Ipsum
                     perspiciatis autem tempore cum deleniti, rerum ab, doloribus
                     ut aliquam soluta corrupti velit earum neque reiciendis
                     accusantium delectus? Quaerat voluptatum praesentium commodi
-                    magni."
+                    magni.
                   </p>
                   <Button label={"get started"} />
                 </div>
